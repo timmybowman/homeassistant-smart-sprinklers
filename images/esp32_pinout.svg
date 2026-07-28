@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="500">
+<rect width="700" height="500" fill="white" stroke="black"/>
+<text x="40" y="40" font-size="24">ESP32 DevKitC V4 (placeholder)</text>
+<text x="40" y="90">GPIO13 → Zone 1</text>
+<text x="40" y="120">GPIO14 → Zone 2</text>
+<text x="40" y="150">GPIO16 → Zone 3</text>
+<text x="40" y="180">GPIO17 → Zone 4</text>
+<text x="40" y="210">GPIO18 → Zone 5</text>
+<text x="40" y="240">GPIO19 → Zone 6</text>
+<text x="40" y="270">GPIO21 → Zone 7</text>
+<text x="40" y="300">GPIO22 → Spare</text>
+<text x="40" y="330">GPIO23 → Spare</text>
+<text x="40" y="360">GPIO2 → Status LED</text></svg>

@@ -1,0 +1,484 @@
+# Website Restoration Guide: arttheentertainment.co.uk
+
+This document provides a comprehensive, step-by-step guide to rebuilding the **Peter N Ghent** music and art website (`arttheentertainment.co.uk`) on your brand-new, empty WordPress installation. 
+
+We have successfully recovered the website's structure, copy, theme, and plugins, along with direct download links for the archived media files (images and sample audio tracks) from the Wayback Machine.
+
+---
+
+## 🛠️ Part 1: WordPress Environment Setup
+
+To recreate the original site's exact design and functionality, install the following theme and plugins in your new WordPress dashboard:
+
+### 1. The Theme
+* **Theme Name**: `Infinite` (or any modern portfolio theme that fits a grid-based portfolio/music display).
+* *Note: If you do not have the original `Infinite` theme, any clean portfolio theme will work. We will reconstruct the layout using standard WordPress features.*
+
+### 2. Required Plugins
+Install and activate the following plugins (all are free and available in the WordPress plugin repository except where noted):
+1. **Audio Album** (by *Gilles-Philippe Morin*) - **CRITICAL**: This is the plugin that was used to create the album playlists and audio player interfaces.
+2. **FooGallery** (by *FooPlugins*) - Used to create the responsive image galleries for your paintings.
+3. **FooBox Image Lightbox** (by *FooPlugins*) - Used to make the gallery images open in a beautiful popup window when clicked.
+4. **MetaSlider** (formerly *ML-Slider*) - Used for any banner slideshows.
+5. **Shortcodes Ultimate** - Used for columns, accordion toggles, and other custom layout elements.
+6. **WPForms Lite** - Used to recreate the Contact Form.
+
+---
+
+## 🎵 Part 2: Reclaiming Archived Audio & Media
+
+The Wayback Machine archived your site's images and the **10 Sample Tracks** featured on your home page. The full albums on individual pages were not fully crawled, so you will need to upload your own MP3 files for the remaining album tracks if you have them. 
+
+### 1. Recovered Audio Tracks (Sample Songs)
+Click the links below to download the original MP3 files. Right-click and choose **"Save Link As..."** to save them to your computer, then upload them to your WordPress Media Library:
+
+* [01-01-Legends-Never-Die.mp3](https://web.archive.org/web/20180902224352id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/01-01-Legends-Never-Die.mp3) (Direct Wayback Link)
+* [01-02-Mothers-Love.mp3](https://web.archive.org/web/20180902225132id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/01-02-Mothers-Love.mp3) (Direct Wayback Link)
+* [01-04-Timeless.mp3](https://web.archive.org/web/20180902224851id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/01-04-Timeless.mp3) (Direct Wayback Link)
+* [01-11-Last-One.mp3](https://web.archive.org/web/20180902223731id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/01-11-Last-One.mp3) (Direct Wayback Link)
+* [02-01-Falling-Down.mp3](https://web.archive.org/web/20180902223219id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/02-01-Falling-Down.mp3) (Direct Wayback Link)
+* [02-03-Guilty-Until-Proven-Guilty.mp3](https://web.archive.org/web/20180902224122id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/02-03-Guilty-Until-Proven-Guilty.mp3) (Direct Wayback Link)
+* [02-07-Thinking.mp3](https://web.archive.org/web/20180902224057id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/02-07-Thinking.mp3) (Direct Wayback Link)
+* [02-10-You-Don-Need.mp3](https://web.archive.org/web/20180902223600id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/02-10-You-Don-Need.mp3) (Direct Wayback Link)
+* [02-11-For-A-Fall.mp3](https://web.archive.org/web/20180902224731id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/02-11-For-A-Fall.mp3) (Direct Wayback Link)
+* [03-05-Hole-in-my-soul.mp3](https://web.archive.org/web/20180902224129id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/03-05-Hole-in-my-soul.mp3) (Direct Wayback Link)
+
+### 2. Recovered Paintings & Gallery Images (59 Files)
+Below are the direct download links for all original images found in your website's uploads folder. Download these and upload them to your WordPress Media Library:
+
+* [1-1.jpg](https://web.archive.org/web/20180902224933id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/1-1.jpg)
+* [1-2.jpg](https://web.archive.org/web/20180902223608id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/1-2.jpg)
+* [1.jpg](https://web.archive.org/web/20180902223951id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/1.jpg)
+* [10-1.jpg](https://web.archive.org/web/20180902224217id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/10-1.jpg)
+* [10.jpg](https://web.archive.org/web/20180902223647id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/10.jpg)
+* [11-1.jpg](https://web.archive.org/web/20180902224455id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/11-1.jpg)
+* [11.jpg](https://web.archive.org/web/20180902224053id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/11.jpg)
+* [12-1.jpg](https://web.archive.org/web/20180902223101id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/12-1.jpg)
+* [12.jpg](https://web.archive.org/web/20180902224339id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/12.jpg)
+* [13.jpg](https://web.archive.org/web/20180902225013id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/13.jpg)
+* [14.jpg](https://web.archive.org/web/20180902225107id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/14.jpg)
+* [15.jpg](https://web.archive.org/web/20180902224744id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/15.jpg)
+* [16.jpg](https://web.archive.org/web/20180902223941id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/16.jpg)
+* [17.jpg](https://web.archive.org/web/20180902223155id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/17.jpg)
+* [18.jpg](https://web.archive.org/web/20180902223701id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/18.jpg)
+* [19.jpg](https://web.archive.org/web/20180902224032id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/19.jpg)
+* [2-1.jpg](https://web.archive.org/web/20180902224005id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/2-1.jpg)
+* [2-2.jpg](https://web.archive.org/web/20180902224802id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/2-2.jpg)
+* [2.jpg](https://web.archive.org/web/20180902224802id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/2.jpg)
+* [20.jpg](https://web.archive.org/web/20180902223535id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/20.jpg)
+* [21.jpg](https://web.archive.org/web/20180902224228id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/21.jpg)
+* [22.jpg](https://web.archive.org/web/20180902224437id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/22.jpg)
+* [23.jpg](https://web.archive.org/web/20180902224931id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/23.jpg)
+* [24.jpg](https://web.archive.org/web/20180902225045id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/24.jpg)
+* [25.jpg](https://web.archive.org/web/20180902224758id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/25.jpg)
+* [26.jpg](https://web.archive.org/web/20180902224010id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/26.jpg)
+* [27.jpg](https://web.archive.org/web/20180902223132id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/27.jpg)
+* [28.jpg](https://web.archive.org/web/20180902223555id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/28.jpg)
+* [29.jpg](https://web.archive.org/web/20180902224213id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/29.jpg)
+* [3-1.jpg](https://web.archive.org/web/20180902224807id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/3-1.jpg)
+* [3-2.jpg](https://web.archive.org/web/20180902223954id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/3-2.jpg)
+* [3.jpg](https://web.archive.org/web/20180902225034id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/3.jpg)
+* [30.jpg](https://web.archive.org/web/20180902224740id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/30.jpg)
+* [31.jpg](https://web.archive.org/web/20180902225125id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/31.jpg)
+* [4-1.jpg](https://web.archive.org/web/20180902225100id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/4-1.jpg)
+* [4-2.jpg](https://web.archive.org/web/20180902223150id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/4-2.jpg)
+* [4.jpg](https://web.archive.org/web/20180902224917id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/4.jpg)
+* [5-1.jpg](https://web.archive.org/web/20180902223155id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/5-1.jpg)
+* [5-2.jpg](https://web.archive.org/web/20180902225048id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/5-2.jpg)
+* [5.jpg](https://web.archive.org/web/20180902224451id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/5.jpg)
+* [6-1.jpg](https://web.archive.org/web/20180902224417id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/6-1.jpg)
+* [6-2.jpg](https://web.archive.org/web/20180902224142id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/6-2.jpg)
+* [6.jpg](https://web.archive.org/web/20180902224149id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/6.jpg)
+* [7-1.jpg](https://web.archive.org/web/20180902224116id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/7-1.jpg)
+* [7-2.jpg](https://web.archive.org/web/20180902224404id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/7-2.jpg)
+* [7.jpg](https://web.archive.org/web/20180902223548id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/7.jpg)
+* [8-1.jpg](https://web.archive.org/web/20180902223429id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/8-1.jpg)
+* [8-2.jpg](https://web.archive.org/web/20180902224836id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/8-2.jpg)
+* [8.jpg](https://web.archive.org/web/20180902223128id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/8.jpg)
+* [9-1.jpg](https://web.archive.org/web/20180902224849id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/9-1.jpg)
+* [9.jpg](https://web.archive.org/web/20180902224001id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/9.jpg)
+* [Logo.png](https://web.archive.org/web/20180902224715id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/Logo.png)
+* [cropped-icon-180x180.gif](https://web.archive.org/web/20180902223848id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/cropped-icon-180x180.gif)
+* [cropped-icon-192x192.gif](https://web.archive.org/web/20180902224814id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/cropped-icon-192x192.gif)
+* [cropped-icon-270x270.gif](https://web.archive.org/web/20180902224906id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/cropped-icon-270x270.gif)
+* [cropped-icon-32x32.gif](https://web.archive.org/web/20180902224635id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/05/cropped-icon-32x32.gif)
+* [home2.jpg](https://web.archive.org/web/20180902224830id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/home2.jpg)
+* [home3.jpg](https://web.archive.org/web/20180902224607id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/home3.jpg)
+* [musicmissing.png](https://web.archive.org/web/20180902224107id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/musicmissing.png)
+
+---
+
+## 📄 Part 3: Recreating Pages & Content
+
+Below is the exact text and track structure for every page on your website.
+
+### 🏠 Page 1: Home Page (Peter N Ghent)
+* **Title**: `Peter N Ghent`
+* **Layout Structure**: Single page with sections: Intro, Music, Gallery, Contact.
+* **Intro Copy**:
+  > After seventy years ‘all about me’ does not matter. I’ve been at it far too long to take up your time reading all about me. This website is all about either liking or disliking the art and the same goes for the songs.
+  > 
+  > OK people, I hope you enjoy my originality and talent/
+
+* **Sample Songs Section**:
+  Set up an **Audio Album** block or shortcode containing the 10 sample tracks listed above.
+  
+* **Gallery Section**:
+  > As well as making music I have spent my life painting and regularly exhibit my artwork in local galleries. If you are interested in buying originals / prints or exhibiting in your gallery please contact me for more information.
+  * *Instruction*: Create a FooGallery containing the paintings downloaded in Part 2, and enable FooBox Lightbox.
+
+* **Contact Section**:
+  * *Instruction*: Insert a WPForms block containing a basic contact form with fields: `Name`, `Email`, `Comment or Message`.
+
+---
+
+### 💿 Page 2: Music Pages (Albums)
+Create a new Page for each album. For each page, add the title, copy, and configure the **Audio Album** plugin to list the tracks:
+
+#### 💿 Album: Ballads of a Six Gun
+* **WordPress Page Title**: `Ballads of a Six Gun`
+* **Band**: `1947`
+* **Release Year**: `2011`
+* **Page Copy**:
+  > If you would like to buy a physical copy of this album please [contact me](http://arttheentertainment.co.uk/#contact) for more information.
+
+* **Tracks List**:
+  1. **Legends Never Die** - 🟢 Archived Audio Available: [Download Track](https://web.archive.org/web/20180902224352id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/01-01-Legends-Never-Die.mp3)
+  2. **Mothers Love** - 🟢 Archived Audio Available: [Download Track](https://web.archive.org/web/20180902225132id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/01-02-Mothers-Love.mp3)
+  3. **Views of Pain** - 🔴 Audio Not Archived (Needs upload of original file: `01-03-Views-Of-Pain.mp3`)
+  4. **Timeless** - 🟢 Archived Audio Available: [Download Track](https://web.archive.org/web/20180902224851id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/01-04-Timeless.mp3)
+  5. **Without Her** - 🔴 Audio Not Archived (Needs upload of original file: `01-05-Without-Her.mp3`)
+  6. **Stole Her Out Of Texas** - 🔴 Audio Not Archived (Needs upload of original file: `01-06-Stole-Her-Out-Of-Texas.mp3`)
+  7. **I'm So Drunk** - 🔴 Audio Not Archived (Needs upload of original file: `01-07-Im-So-Drunk.mp3`)
+  8. **Get Out Of This Town** - 🔴 Audio Not Archived (Needs upload of original file: `01-08-Get-Out-Of-This-Town.mp3`)
+  9. **Ha Monoleagus** - 🔴 Audio Not Archived (Needs upload of original file: `01-09-Ha-Monoleagus.mp3`)
+  10. **Crossing The Line** - 🔴 Audio Not Archived (Needs upload of original file: `01-10-Crossing-The-Line.mp3`)
+  11. **Last One** - 🟢 Archived Audio Available: [Download Track](https://web.archive.org/web/20180902223731id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/01-11-Last-One.mp3)
+
+--------------------------------------------------
+
+#### 💿 Album: Collateral Damage
+* **WordPress Page Title**: `Collateral Damage`
+* **Band**: `1947`
+* **Release Year**: `2011`
+* **Page Copy**:
+  > If you would like to buy a physical copy of this album please [contact me](http://arttheentertainment.co.uk/#contact) for more information.
+
+* **Tracks List**:
+  1. **Falling Down** - 🟢 Archived Audio Available: [Download Track](https://web.archive.org/web/20180902223219id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/02-01-Falling-Down.mp3)
+  2. **If Only** - 🔴 Audio Not Archived (Needs upload of original file: `02-02-If-Only.mp3`)
+  3. **Guilty Until Proven Guilty** - 🟢 Archived Audio Available: [Download Track](https://web.archive.org/web/20180902224122id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/02-03-Guilty-Until-Proven-Guilty.mp3)
+  4. **The Stealer** - 🔴 Audio Not Archived (Needs upload of original file: `02-04-The-Stealer.mp3`)
+  5. **Plasticine Models of You** - 🔴 Audio Not Archived (Needs upload of original file: `02-05-Plasticene-Models-Of-You.mp3`)
+  6. **I Believe In Magic** - 🔴 Audio Not Archived (Needs upload of original file: `02-06-I-Believe-In-Magic.mp3`)
+  7. **Thinking** - 🟢 Archived Audio Available: [Download Track](https://web.archive.org/web/20180902224057id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/02-07-Thinking.mp3)
+  8. **Cold Silence** - 🔴 Audio Not Archived (Needs upload of original file: `02-08-Cold-Silence.mp3`)
+  9. **Collateral Damage** - 🔴 Audio Not Archived (Needs upload of original file: `02-09-Collateral-Damage.mp3`)
+  10. **You Don't Need** - 🟢 Archived Audio Available: [Download Track](https://web.archive.org/web/20180902223600id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/02-10-You-Don-Need.mp3)
+  11. **For A Fall** - 🟢 Archived Audio Available: [Download Track](https://web.archive.org/web/20180902224731id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/02-11-For-A-Fall.mp3)
+
+--------------------------------------------------
+
+#### 💿 Album: Gates To Doorways
+* **WordPress Page Title**: `Gates To Doorways`
+* **Band**: `1947`
+* **Release Year**: `2011`
+* **Page Copy**:
+  > If you would like to buy a physical copy of this album please [contact me](http://arttheentertainment.co.uk/#contact) for more information.
+
+* **Tracks List**:
+  1. **Calling For You** - 🔴 Audio Not Archived (Needs upload of original file: `03-01-Calling-for-you.mp3`)
+  2. **Don't Mess With The Doctor** - 🔴 Audio Not Archived (Needs upload of original file: `03-02-Dont-mess-with-the-doctor.mp3`)
+  3. **Tall Buildings** - 🔴 Audio Not Archived (Needs upload of original file: `03-03-Tall-Buildings.mp3`)
+  4. **If I Could** - 🔴 Audio Not Archived (Needs upload of original file: `03-04-If-I-Could.mp3`)
+  5. **Hole In My Soul** - 🟢 Archived Audio Available: [Download Track](https://web.archive.org/web/20180902224129id_/http://arttheentertainment.co.uk/wp-content/uploads/2018/06/03-05-Hole-in-my-soul.mp3)
+  6. **Dead End** - 🔴 Audio Not Archived (Needs upload of original file: `03-06-Dead-End.mp3`)
+  7. **Forgotten** - 🔴 Audio Not Archived (Needs upload of original file: `03-08-Forgotten.mp3`)
+  8. **Good Times** - 🔴 Audio Not Archived (Needs upload of original file: `03-07-Good-times.mp3`)
+  9. **Tatters** - 🔴 Audio Not Archived (Needs upload of original file: `03-09-Tatters.mp3`)
+  10. **Angry** - 🔴 Audio Not Archived (Needs upload of original file: `03-10-Angry.mp3`)
+  11. **Little Sister** - 🔴 Audio Not Archived (Needs upload of original file: `03-11-Little-Sister.mp3`)
+  12. **It Seems** - 🔴 Audio Not Archived (Needs upload of original file: `03-12-It-Seems.mp3`)
+
+--------------------------------------------------
+
+#### 💿 Album: Rag Dollar
+* **WordPress Page Title**: `Rag Dollar`
+* **Band**: `1947`
+* **Page Copy**:
+  > If you would like to buy a physical copy of this album please [contact me](http://arttheentertainment.co.uk/#contact) for more information.
+
+* **Tracks List**:
+  1. **Looking For Fortune** - 🔴 Audio Not Archived (Needs upload of original file: `04-01-Looking-For-Fortune.mp3`)
+  2. **Little Sister** - 🔴 Audio Not Archived (Needs upload of original file: `04-02-Little-Sister.mp3`)
+  3. **She's My Car** - 🔴 Audio Not Archived (Needs upload of original file: `04-03-Shes-My-Car.mp3`)
+  4. **LA Rain** - 🔴 Audio Not Archived (Needs upload of original file: `04-04-LA-Rain.mp3`)
+  5. **It Ain't Me** - 🔴 Audio Not Archived (Needs upload of original file: `04-05-It-Aint-Me.mp3`)
+  6. **Cherry Wine** - 🔴 Audio Not Archived (Needs upload of original file: `04-06-Cherry-Wine.mp3`)
+  7. **She's My Money** - 🔴 Audio Not Archived (Needs upload of original file: `04-07-Shes-My-Money.mp3`)
+  8. **Peddler** - 🔴 Audio Not Archived (Needs upload of original file: `04-08-Peddler.mp3`)
+  9. **Doctor Please** - 🔴 Audio Not Archived (Needs upload of original file: `04-09-Doctor-Please.mp3`)
+  10. **Dead End** - 🔴 Audio Not Archived (Needs upload of original file: `04-10-Dead-End.mp3`)
+  11. **Stole Away My Life** - 🔴 Audio Not Archived (Needs upload of original file: `04-11-Stole-Away-My-Life.mp3`)
+  12. **She Don't Trust Me** - 🔴 Audio Not Archived (Needs upload of original file: `04-12-She-Dont-Trust-Me.mp3`)
+
+--------------------------------------------------
+
+#### 💿 Album: No Goodbyes
+* **WordPress Page Title**: `No Goodbyes`
+* **Band**: `1947`
+* **Release Year**: `2013`
+* **Page Copy**:
+  > If you would like to buy a physical copy of this album please [contact me](http://arttheentertainment.co.uk/#contact) for more information.
+
+* **Tracks List**:
+  1. **No Goodbyes** - 🔴 Audio Not Archived (Needs upload of original file: `05-01-No-Goodbyes.mp3`)
+  2. **Hard Times** - 🔴 Audio Not Archived (Needs upload of original file: `05-02-Hard-Times.mp3`)
+  3. **Crying** - 🔴 Audio Not Archived (Needs upload of original file: `05-03-Crying.mp3`)
+  4. **Drowning My Sorrows** - 🔴 Audio Not Archived (Needs upload of original file: `05-04-Drowning-My-Sorrows.mp3`)
+  5. **Wanted** - 🔴 Audio Not Archived (Needs upload of original file: `05-05-Wanted.mp3`)
+  6. **Through All That Time** - 🔴 Audio Not Archived (Needs upload of original file: `05-06-Through-All-That-Time.mp3`)
+  7. **Missing You** - 🔴 Audio Not Archived (Needs upload of original file: `05-07-Missing-You.mp3`)
+  8. **From The Line** - 🔴 Audio Not Archived (Needs upload of original file: `05-08-From-The-Line.mp3`)
+  9. **May Burnett** - 🔴 Audio Not Archived (Needs upload of original file: `05-09-May-Burnett.mp3`)
+  10. **Moving On** - 🔴 Audio Not Archived (Needs upload of original file: `05-10-Moving-On.mp3`)
+  11. **Hollywood Dream** - 🔴 Audio Not Archived (Needs upload of original file: `05-11-Hollywood-Dream.mp3`)
+
+--------------------------------------------------
+
+#### 💿 Album: All Out Of Chances
+* **WordPress Page Title**: `All Out Of Chances`
+* **Band**: `1947`
+* **Release Year**: `2012`
+* **Page Copy**:
+  > If you would like to buy a physical copy of this album please [contact me](http://arttheentertainment.co.uk/#contact) for more information.
+
+* **Tracks List**:
+  1. **All Out Of Chances** - 🔴 Audio Not Archived (Needs upload of original file: `06-01-All-Out-Of-Chances.mp3`)
+  2. **Alligator Road** - 🔴 Audio Not Archived (Needs upload of original file: `06-02-Aligator-Road.mp3`)
+  3. **Fighter** - 🔴 Audio Not Archived (Needs upload of original file: `06-03-Fighter.mp3`)
+  4. **Hiding Your Tears Again** - 🔴 Audio Not Archived (Needs upload of original file: `06-04-Hiding-Your-Tears-Again.mp3`)
+  5. **Dirty Dreams** - 🔴 Audio Not Archived (Needs upload of original file: `06-05-Dirty-Dreams.mp3`)
+  6. **I Don't Care** - 🔴 Audio Not Archived (Needs upload of original file: `06-06-I-Dont-Care.mp3`)
+  7. **Lonely Nights and Empty Days** - 🔴 Audio Not Archived (Needs upload of original file: `06-07-Lonely-Nights-and-Empty-Days.mp3`)
+  8. **You Ain't Breaking My Heart** - 🔴 Audio Not Archived (Needs upload of original file: `06-08-You-Aint-Breaking-My-Heart.mp3`)
+  9. **To See The World** - 🔴 Audio Not Archived (Needs upload of original file: `06-09-To-See-The-World.mp3`)
+  10. **First Step of The Stairs** - 🔴 Audio Not Archived (Needs upload of original file: `06-10-First-Step-Of-The-Stairs.mp3`)
+  11. **Riding Tempers Tide** - 🔴 Audio Not Archived (Needs upload of original file: `06-11-Riding-Tempers-Tide.mp3`)
+  12. **Take Her Out To Dinner** - 🔴 Audio Not Archived (Needs upload of original file: `06-12-Take-Her-Out-To-Dinner.mp3`)
+
+--------------------------------------------------
+
+#### 💿 Album: Sleeping In The Clouds
+* **WordPress Page Title**: `Sleeping In The Clouds`
+* **Band**: `1947`
+* **Release Year**: `2013`
+* **Page Copy**:
+  > If you would like to buy a physical copy of this album please [contact me](http://arttheentertainment.co.uk/#contact) for more information.
+
+* **Tracks List**:
+  1. **Just Kidding Myself** - 🔴 Audio Not Archived (Needs upload of original file: `07-01-Just-Kidding-Myself.mp3`)
+  2. **Times Like This** - 🔴 Audio Not Archived (Needs upload of original file: `07-02-Times-Like-This.mp3`)
+  3. **I Don't Know** - 🔴 Audio Not Archived (Needs upload of original file: `07-03-I-Dont-Know.mp3`)
+  4. **Sleeping In The Clouds** - 🔴 Audio Not Archived (Needs upload of original file: `07-04-Sleeping-In-The-Clouds.mp3`)
+  5. **Footsteps** - 🔴 Audio Not Archived (Needs upload of original file: `07-05-Footsteps.mp3`)
+  6. **Fascinating** - 🔴 Audio Not Archived (Needs upload of original file: `07-06-Fascinating.mp3`)
+  7. **Pinch Me** - 🔴 Audio Not Archived (Needs upload of original file: `07-07-Pinch-Me.mp3`)
+  8. **Destination** - 🔴 Audio Not Archived (Needs upload of original file: `07-08-Destination.mp3`)
+  9. **A Smile Ocean** - 🔴 Audio Not Archived (Needs upload of original file: `07-09-A-Smile-Ocean.mp3`)
+  10. **Given Time** - 🔴 Audio Not Archived (Needs upload of original file: `07-10-Given-Time.mp3`)
+
+--------------------------------------------------
+
+#### 💿 Album: It’s A Bad Lands
+* **WordPress Page Title**: `It’s A Bad Lands`
+* **Band**: `1947`
+* **Release Year**: `2013`
+* **Page Copy**:
+  > If you would like to buy a physical copy of this album please [contact me](http://arttheentertainment.co.uk/#contact) for more information.
+
+* **Tracks List**:
+  1. **It's A Bad Lands** - 🔴 Audio Not Archived (Needs upload of original file: `08-01-Its-A-Bad-Lands.mp3`)
+  2. **Curse It All** - 🔴 Audio Not Archived (Needs upload of original file: `08-02-Curse-It-All.mp3`)
+  3. **All Busted Up** - 🔴 Audio Not Archived (Needs upload of original file: `08-03-All-Busted-Up.mp3`)
+  4. **Changing My Mind** - 🔴 Audio Not Archived (Needs upload of original file: `08-04-Changing-My-Mind.mp3`)
+  5. **Please Hold The Line** - 🔴 Audio Not Archived (Needs upload of original file: `08-05-Please-Hold-The-Line.mp3`)
+  6. **Road House Singer** - 🔴 Audio Not Archived (Needs upload of original file: `08-06-Road-House-Singer.mp3`)
+  7. **The Last Duel** - 🔴 Audio Not Archived (Needs upload of original file: `08-07-The-Last-Duel.mp3`)
+  8. **Rock 'N' Roll Bullet** - 🔴 Audio Not Archived (Needs upload of original file: `08-08-Rock-N-Roll-Bullet.mp3`)
+  9. **Solid** - 🔴 Audio Not Archived (Needs upload of original file: `08-09-Solid.mp3`)
+  10. **Karma** - 🔴 Audio Not Archived (Needs upload of original file: `08-10-Karma.mp3`)
+
+--------------------------------------------------
+
+
+---
+
+## 🧭 Part 4: Building the Site Menu
+
+Once all pages are created, navigate to **Appearance > Menus** in your WordPress dashboard and create a new main menu with the following links:
+1. **Home** (Link to your home page)
+2. **Music** (Create a custom link or drop-down listing the 8 album pages above)
+3. **Gallery** (Anchor link `#gallery` to the gallery section on your home page, or a separate gallery page)
+4. **Contact Me** (Anchor link `#contact` to the contact section on your home page, or a separate contact page)
+
+---
+
+## 🎨 Part 5: Restoring Theme Styling, Fonts, & Colors
+
+We extracted the original site's style tags and custom settings. Recreating your fonts, headings, layout structure, and audio player design is as simple as adding a single block of code to your new WordPress site.
+
+### Extracted Theme Config:
+* **Headers Font**: `Lobster` (size `36px` for `h1`)
+* **Body/Paragraphs Font**: `Overlock`
+* **Vibrant Accent Color**: `#26ade5` (Vibrant Blue, used for links hover and active states)
+* **Background Color**: `#f9f8f8` (Soft Off-white)
+* **Background Pattern**: The site used a subtle `noisy_grid.png` background repetition.
+
+### How to apply this CSS block:
+1. Log in to your WordPress dashboard.
+2. Go to **Appearance > Customize** (or **Appearance > Additional CSS** depending on your active theme).
+3. Open the **Additional CSS** tab.
+4. Copy and paste the entire block below into the editor box, then hit **Publish**. It will automatically load the correct Google Fonts and style your site to match the original.
+
+```css
+/* 
+==================================================================
+  PETER N GHENT - WEBSITE RESTORATION CUSTOM CSS
+  Copy and paste this entire block into:
+  Appearance > Customize > Additional CSS in your WordPress Dashboard
+================================================================== 
+*/
+
+/* 1. IMPORT GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Overlock&family=Lobster&display=swap');
+
+/* 2. BASE TYPOGRAPHY & COLORS */
+body {
+    font-family: 'Overlock', sans-serif;
+    color: #6a6767;
+    background-color: #f9f8f8;
+}
+
+p {
+    font-family: 'Overlock', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* Links & Accents */
+a, p a, span a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #333333;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover, p a:hover, span a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #26ade5; /* Vibrant Blue Accent */
+}
+
+/* 3. HOME PAGE LAYOUT OVERRIDES */
+.home .site-content {
+    width: 100%;
+}
+
+/* 4. CUSTOM GRID COLUMNS (ROW1 & COLUMN) */
+.row1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 767px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* 5. AUDIO ALBUM PLUGIN CUSTOM COLORS */
+/* Set clean Verdana font for Audio elements */
+.audioheading,
+.audioalbum,
+.track {
+    font-family: 'Verdana', sans-serif !important;
+}
+
+/* Dark grey/slate player theme */
+.audioalbum, 
+.audioheading, 
+.track {
+    background-color: #434a54 !important;
+}
+
+/* Inner controls bar and download/audio buttons */
+.track .wp-audio-shortcode.mejs-audio .mejs-inner > .mejs-controls,
+.track .audiobutton a {
+    background-color: #2c3138 !important;
+}
+
+.track .audiobutton a:hover {
+    background-color: #ffffff !important;
+    color: #434a54 !important;
+}
+
+/* White track timeline slider progress */
+.track .mejs-time-rail .mejs-time-total .mejs-time-current,
+.track .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background-color: #ffffff !important;
+}
+
+/* Darker timeline background and volume bars */
+.track .mejs-controls .mejs-time-rail .mejs-time-total,
+.track .mejs-time-rail .mejs-time-total .mejs-time-loaded,
+.track .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    background-color: #2c3138 !important;
+}
+
+/* White text for song info and details */
+h1.audioheading,
+p.audioheading,
+h2.audioalbum,
+p.audioalbum,
+.track .songtitle,
+.track .songwriter,
+.track .mejs-controls > .mejs-button button,
+.track .audiobutton a,
+.track .mejs-currenttime,
+.track .mejs-duration {
+    color: #ffffff !important;
+}
+
+.track .mejs-controls > .mejs-button button:hover {
+    color: #ffffff !important;
+}
+```
+
+---
+
+## 🚀 Need Help Rebuilding?
+If you would like me to write a custom HTML template mimicking the original site, or generate custom WordPress CSS, just let me know!
+

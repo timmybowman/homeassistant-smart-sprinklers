@@ -1,0 +1,41 @@
+My proposal
+Rather than trying to generate everything piecemeal in chat, I'd like to build this as a proper documentation project over the next few responses.
+We'll do it in logical chunks:
+1 README.md (professional GitHub front page)
+2 SVG diagrams
+3 Hardware documentation
+4 ESPHome documentation
+5 Home Assistant documentation
+6 Helpers
+7 Automations
+8 Appendices with all YAML
+Each part will be complete and polished before moving on to the next.
+
+
+Phase 2
+1. System Overview
+2. ESP32 Pinout
+3. Relay Wiring
+4. Software Architecture
+5. Daily Timeline
+6. Soil Moisture Model
+7. Runtime Calculator
+8. Garden Layout
+9. Cycle & Soak
+10. ESPHome Logic
+
+Phase 3 – Documentation
+docs/
+├── 01-Introduction.md
+├── 02-Hardware.md
+├── 03-ESPHome.md
+├── 04-Home-Assistant.md
+├── 05-Helpers.md
+├── 06-Automations.md
+├── 07-Irrigation-Logic.md
+├── 08-Weather-Integration.md
+├── 09-Installation.md
+├── 10-Maintenance.md
+├── 11-Troubleshooting.md
+├── 12-Future-Improvements.md
+└── Appendix.md

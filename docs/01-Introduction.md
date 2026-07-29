@@ -1,8 +1,10 @@
-Home Assistant Smart Sprinklers
-Version: 1.0
-Document: 01 – Introduction
-Last Updated: July 2026
+> [!NOTE]
+> **Home Assistant Smart Sprinklers**  
+> **Document:** 01 – Introduction  
+> **Version:** 1.0  
+> **Last Updated:** July 2026
 
+---
 # Introduction
 
 > **Project Name:** Home Assistant Smart Sprinklers
@@ -312,4 +314,10 @@ The following documents describe every aspect of the system in sufficient detail
 ---
 
 **Next Document:** `02-Hardware.md`
-← Previous Document              Next Document →
+---
+
+## Navigation
+
+⬅️ Previous: *README.md*
+
+➡️ Next: [02 – Hardware](02-Hardware.md)

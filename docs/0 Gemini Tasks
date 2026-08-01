@@ -39,3 +39,75 @@ docs/
 ├── 11-Troubleshooting.md
 ├── 12-Future-Improvements.md
 └── Appendix.md
+
+
+
+
+
+homeassistant-smart-sprinklers/
+│
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   │   └── question.md
+│   │
+│   ├── workflows/
+│   │   └── markdown.yml
+│   │
+│   └── FUNDING.yml
+│
+├── appendices/
+│   ├── A-ESPHome-Firmware.md
+│   ├── B-Automations.md
+│   ├── C-Helpers.md
+│   ├── D-Template-Sensors.md
+│   └── E-GPIO-Reference.md
+│
+├── diagrams/
+│   ├── architecture.svg
+│   ├── automation-flow.svg
+│   ├── cycle-soak.svg
+│   ├── esp32-pinout.svg
+│   ├── relay-board.svg
+│   ├── watering-timeline.svg
+│   ├── helper-relationships.svg
+│   ├── weather-logic.svg
+│   └── virtual-soil-moisture.svg
+│
+├── docs/
+│   ├── 01-Overview.md
+│   ├── 02-Hardware.md
+│   ├── 03-ESPHome.md
+│   ├── 04-Home-Assistant.md
+│   ├── 05-Helpers.md
+│   ├── 06-Automations.md
+│   ├── 07-Irrigation-Logic.md
+│   ├── 08-Weather-Integration.md
+│   ├── 09-Installation.md
+│   ├── 10-Maintenance.md
+│   ├── 11-Troubleshooting.md
+│   └── 12-Future-Improvements.md
+│
+├── esphome/
+│   └── sprinklers.yaml
+│
+├── homeassistant/
+│   ├── automations.yaml
+│   ├── helpers.yaml
+│   └── template_sensors.yaml
+│
+├── images/
+│   ├── dashboard.png
+│   ├── enclosure.jpg
+│   ├── relay-board.jpg
+│   ├── sprinklers.jpg
+│   └── overview.jpg
+│
+├── LICENSE
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+├── .gitignore
+└── README.md

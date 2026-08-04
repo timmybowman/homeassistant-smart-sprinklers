@@ -111,3 +111,27 @@ homeassistant-smart-sprinklers/
 ├── SECURITY.md
 ├── .gitignore
 └── README.md
+
+
+
+DIAGRAMS
+diagrams/
+architecture.svg
+esp32-pinout.svg
+relay-board.svg
+automation-flow.svg
+cycle-soak.svg
+decision-tree.svg
+soil-moisture.svg
+daily-schedule.svg
+master-sheet.ai
+
+system-architecture.png
+esp32-devkit-pinout.png
+relay-board-wiring.png
+home-assistant-automation-flow.png
+cycle-soak-timeline.png
+irrigation-decision-tree.png
+virtual-soil-moisture-model.png
+daily-automation-schedule.png
+master-diagrams-v1.png

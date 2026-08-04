@@ -112,7 +112,14 @@ homeassistant-smart-sprinklers/
 ├── .gitignore
 └── README.md
 
-
+appendices/
+A-ESPHome-Firmware.md
+B-Automations.md
+C-Helpers.md
+D-Template-Sensors.md
+E-Hardware-Specification.md
+F-GPIO-Reference.md
+G-Change-History.md
 
 DIAGRAMS
 diagrams/
